@@ -209,6 +209,9 @@ footer {
 @media (max-width: 870px) {
   .home .intro img {
     width: 100%;
+    border-radius: 22px;
+    padding-left: 2%;
+    padding-right: 2%;
   }
 }
 .home .intro h2 {
