@@ -1,3 +1,7 @@
+.custom-flex {
+  display: flex;
+  justify-content: center;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -190,6 +194,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 8%;
 }
 .home .intro img {
   margin-top: 1%;
@@ -235,6 +240,22 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  background: #22283A;
+  text-align: center;
+  width: 20%;
+  height: 2.8vh;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  color: white;
+}
+.home .walk .walk-text .btn:hover {
+  background: white;
+  color: black;
 }
 .home .walk .walk-img {
   width: 46%;
