@@ -165,7 +165,8 @@ p {
   margin: 0 auto;
 }
 @media (max-width:500px) {
-  span {
+  img.sky,
+  img.launch {
     display: none;
   }
 }
