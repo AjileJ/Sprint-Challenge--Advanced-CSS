@@ -204,6 +204,12 @@ footer {
 }
 .home .intro img {
   margin-top: 1%;
+  border-radius: 7px;
+}
+@media (max-width: 870px) {
+  .home .intro img {
+    width: 100%;
+  }
 }
 .home .intro h2 {
   padding: 15px;
